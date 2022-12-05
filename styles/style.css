@@ -1,0 +1,36 @@
+.main-index {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+    color: lightpink;
+    background-color:darkslategrey;
+    height: 100%;
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.main-index {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.baby {
+    text-decoration: underline dotted greenyellow;
+    margin-bottom: 0;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.img-mark {
+    margin-top: 0;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
